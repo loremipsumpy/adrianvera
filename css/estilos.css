@@ -23,10 +23,12 @@ body {
 /* ----- ----- HEADER ----- ----- */
 
 header {
-    background: url('../img/fondo.png') #946695;
+    background: url('../img/fondo.png') #800040;
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
+    background-size: 100%;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .6);
 }
 
 header .menu {
@@ -74,6 +76,8 @@ header .contenedor-texto .texto .nombre {
     margin-bottom: 10px;
     font-size: 50px;
     line-height: 50px;
+    text-shadow: 1px, 1px, 1px;
+
 }
 
 header .contenedor-texto .texto .profesion {
@@ -115,7 +119,7 @@ header .contenedor-texto .texto .profesion {
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 300;
-    color: #98279A;
+    color: #8C1953;
     text-align: center;
 }
 
@@ -138,7 +142,7 @@ header .contenedor-texto .texto .profesion {
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 300;
-    color: #98279A;
+    color: #8C1953;
     text-align: center;
 }
 
@@ -179,7 +183,7 @@ header .contenedor-texto .texto .profesion {
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
     font-weight: 700;
-    color: #946695;
+    color: #993366;
     margin-bottom: 10px;
 }
 
@@ -293,7 +297,7 @@ footer .contacto .formulario textarea:focus-visible {
 }
 
 footer .redes-sociales {
-    background: #946695;
+    background: #800040;
     padding: 60px 0;
 }
 
